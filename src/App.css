@@ -1,0 +1,124 @@
+.card {
+  background: #1A1B21;  
+  border-radius: 12px;      
+  width: 317px;   
+  margin: 2rem auto;    
+  padding: 2rem;     
+  overflow: hidden;      
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+
+  display: flex;
+  flex-direction: column;
+  max-height: 720px;
+}
+
+.info .hero {
+  margin: -2rem -2rem 1rem;
+}
+
+.info .hero img {
+  width: 100%;
+  height: 317px;                 
+  object-fit: cover;
+  display: block;
+}
+
+
+.info h1 {
+  font-weight: 700;
+  font-size: 1.5625rem;
+  color: #FFFFFF;
+}
+
+.info p {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #F3BF99;
+  margin-top: -0.75rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.email-button {
+  width: 115px;
+  height: 34px;
+  display: inline-flex;
+  align-items: center;
+  background: white;
+  color: #374151;
+  border: 1px;
+  border-radius: 6px;
+  padding: 0.5625rem 0.8125rem;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.linkedin-button {
+  width: 115px;
+  height: 34px;
+  display: inline-flex;
+  align-items: center;
+  background: #5093E2;
+  color: white;
+  border: 1px;
+  border-radius: 6px;
+  padding: 0.5625rem 0.8125rem;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.about {
+  margin: 2rem auto;
+  text-align: left;
+}
+
+.about h2{
+  color: #F5F5F5;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.about p {
+  color: #DCDCDC;
+  font-weight: 400;
+  font-size: 0.64rem;
+  margin-top: -0.5rem;
+}
+
+.interests {
+  margin: 2rem auto;
+  margin-top: -2rem;
+  text-align: left;
+}
+
+.interests h2{
+  color: #F5F5F5;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.interests p {
+  color: #DCDCDC;
+  font-weight: 400;
+  font-size: 0.64rem;
+  margin-top: -0.5rem;
+}
+
+.footer {
+  background-color: #161619;
+  width: 100%;
+  margin-top: auto;
+  padding: 1rem 2rem;
+  margin-left: -2rem;
+  margin-right: -2rem; 
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  color: #918E9B;
+}

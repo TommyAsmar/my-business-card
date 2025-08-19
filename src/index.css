@@ -1,0 +1,7 @@
+/* Minimal baseline so text is visible */
+html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  background: #23252C;
+  font-family: Inter, sans-serif;
+}
